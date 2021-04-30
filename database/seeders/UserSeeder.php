@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
         $data = [
             'name'       => 'Super Admin', 
         	'email'      => 'superadmin@superadmin.com',
-            'address'    =>  'India',
+            'address'    =>  'United States',
             'image'     => 'dummy-profile.jpg'
         ];
         $modelName = new User();
@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
         $data = [
             'name'         => 'Admin', 
         	'email'        => 'admin@superadmin.com',
-            'address'      =>  'India',
+            'address'      =>  'Russia',
             'image'       => 'dummy-profile.jpg'
         ];
         $modelName = new User();
